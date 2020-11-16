@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/button" />
+
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button_4"
+            android:layout_width="@dimen/button_width_big"
+            android:layout_height="@dimen/button_height_big"
+            android:text="@string/button" />
+
+        <Button
+            android:id="@+id/button_5"
+            android:layout_width="@dimen/button_width_big"
+            android:layout_height="@dimen/button_height_big"
+            android:text="@string/button" />
+
+        <Button
+            android:id="@+id/button_6"
+            android:layout_width="@dimen/button_width_big"
+            android:layout_height="@dimen/button_height_big"
+            android:text="@string/button" />
+
+
+        <TextView
+            android:id="@+id/xml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xml"
+            android:textSize="@dimen/text_common" />
+
+
+</LinearLayout>

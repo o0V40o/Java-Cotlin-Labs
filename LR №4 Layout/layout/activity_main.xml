@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_textview"
+        android:textSize="@dimen/timer_text_common" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="@dimen/button_width_common"
+        android:layout_height="@dimen/button_height_common"
+        android:text="@string/start_button" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="@dimen/button_width_common"
+        android:layout_height="@dimen/button_height_common"
+        android:text="@string/stop_button" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="@dimen/button_width_common"
+        android:layout_height="@dimen/button_height_common"
+        android:text="@string/reset_button" />
+
+</LinearLayout>
