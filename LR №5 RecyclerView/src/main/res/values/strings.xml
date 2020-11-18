@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Versions</string>
+    <string name="poster_description">Android white poster</string>
+    <string name="image_description">Android version name</string>
+    <string name="version">Version</string>
+    <string name="released">Released:</string>
+    <string name="overview">Overview</string>
+    <string name="version_trailer">VERSION TRAILER</string>
+    <string name="icon_image_description">Some version image</string>
+</resources>
